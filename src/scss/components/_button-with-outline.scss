@@ -1,14 +1,13 @@
-.button-with-right-arrow {
+.button-with-outline {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 9px;
-  border: none;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
+  padding: 16px 20px 18px;
+  justify-content: space-between;
+  border: 1px solid black;
   background-color: transparent;
-  height: 31px;
-  width: 154px;
+  height: 56px;
+  max-width: 294px;
+  width: 100%;
   font-family: Formular, "Helvetica Neue", Helvetica, sans-serif;
   cursor: pointer;
   background: linear-gradient(to right, #000000 50%, transparent 50%);
@@ -17,8 +16,9 @@
   background-position: right;
 }
 
-.button-with-right-arrow::before {
+.button-with-outline::after {
 content: '';
+margin: 0 0 0 10px;
 background-image: url('../../images/arrow-right.svg');
 background-repeat: no-repeat;
 background-size: contain;
@@ -26,11 +26,12 @@ width: 21px;
 height: 13px;
 }
 
-.button-with-right-arrow:hover {
+.button-with-outline:hover {
   background-position: left;
   color:$forest_wolf;
 }
 
-.button-with-right-arrow:hover::before  {
+.button-with-outline:hover::after  {
   background-image: url('../../images/arrow-right-white.svg');
+  transition: 0.7s;
 }
