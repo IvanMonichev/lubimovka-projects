@@ -1,0 +1,115 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-top: 42px;
+  padding-bottom: 56px;
+  /*
+  &__main-wrapper {
+    margin-right: 115px;
+  }*/
+
+  &__partnerslogo-wrapper {
+    display: flex;
+    margin-bottom: 62px;
+  }
+
+  &__partnerslogo-title {
+    width: 145px;
+  }
+
+  &__partner-logo {
+    margin-left: 35px;
+  }
+
+  &__adress-wrapper {
+    width: 231px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__nav-wrapper {
+    display: flex; 
+    justify-content: space-between;
+  }
+
+  &__nav-container {
+      display: flex;
+      flex-direction: column;
+      margin-right: 100px;
+  }
+
+  &__adressAndNav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 49px;
+  }
+
+  &__date-wrapper {
+    display: flex;
+    justify-content: space-between;
+    /*margin-right: 115px;*/
+  }
+
+  &__politic {
+    width: 117px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &__date {
+    width: 134px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #242424;
+    margin-bottom: 15px;
+  }
+
+  &__info {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px; 
+  }
+
+  &__adress {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &__adress-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+
+  &__info-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__info-img {
+    width: 27px;
+    height: 25px;
+  }
+
+  &__info-container-img {
+    display: flex;
+    width: 189px;
+  }
+
+  &__info-we {
+    width: 207px;
+  }
+
+  &__date-container {
+    display: flexbox;
+  }
+}
